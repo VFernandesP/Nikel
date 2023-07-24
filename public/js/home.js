@@ -23,7 +23,7 @@ document.getElementById("transaction-form").addEventListener("submit", function(
         value: value, type: type, description: description, date: date
     });
 
-    saveDate(data);
+    saveData(data);
     e.target.reset();
     myModal.hide();
 
